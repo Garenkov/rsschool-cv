@@ -3,17 +3,17 @@
 ![photo](https://i.ibb.co/sv2GDSd/Photo-Vlad.jpg)
 
 ---
-#### Contact information:
+### Contact information:
 * Phone: +375259596069
 * Telegram: @Garenkov23
 * E-mail: vladgarenkov@gmai.com
 
 ---
-#### About me:
+### About me:
 I live in Minsk. I am 24 years old. I graduated from BNTU in 2019 and then served in the army. I have a funny dog and a wonderful wife. Now I am learning programming.
 
 ---
-#### Skills:
+### Skills:
 * PhotoShop
 * Java (begginer)
 * JavaScript (beginer)
@@ -21,7 +21,7 @@ I live in Minsk. I am 24 years old. I graduated from BNTU in 2019 and then serve
 * CSS(begginer)
 
 ---
-#### Code example:
+### Code example:
 ```
 let hello;
 hello = 'Hello World!';
@@ -29,9 +29,9 @@ alert(message);
 ```
 
 ---
-#### Education:
+### Education:
 * Belarusion National Technical University
 
 ---
-#### English:
+### English:
 * Intermediate (B1)
