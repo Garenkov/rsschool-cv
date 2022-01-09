@@ -4,117 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="/css/reset.css">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <table>
-            <tr class="tr">
-                <td class="td-l">
-                    <header>
-                        <div class="name">
-                            <p><span>Vladislav Garenkov</span></p>
-                        </div>
-                    </header>
-                </td>
-                <td class="td">
-                    <div class="photo">
-                        <img src="https://i.ibb.co/sv2GDSd/Photo-Vlad.jpg" alt="photo">
-                    </div>
-                </td>
-            </tr>
-            <tr class="tr">
-                <td class="td-l">
-                    <nav>
-                        <p>About me:</p>
-                    </nav>
-                </td>
-                <td class="td">
-                    <div class="about">
-                        <span>I live in Minsk. I am 24 years old.
-                        I graduated from BNTU in 2019 and then served in the army. 
-                        I have a funny dog and a wonderful wife. Now I am learning programming.
-                        </span>
-                    </div>
-                </td>
-            </tr>
-            <tr class="tr">
-                <td class="td-l">
-                    <nav>
-                        <p>Skills:</p>
-                    </nav>
-                </td>
-                <td class="td">
-                    <ul class="list">
-                        <li class="item">Photoshop (begginer)</li>
-                        <li class="item">Java (begginer)</li>
-                        <li class="item">JavaScript (beginer)</li>
-                        <li class="item">HTML (begginer)</li>
-                        <li class="item">CSS (begginer)</li>
+    <header class="header">
+        <div class="container-header">
+            <nav class="nav-header">
+                <div class="header-item"><a class="link" href="#about-me">About me</a></div>
+                <div class="header-item"><a class="link" href="#contacts">Contacts</a></div>
+                <div class="header-item"><a class="link" href="#skills">Skills</a></div>
+                <div class="header-item"><a class="link" href="#code">Code</a></div>
+                <div class="header-item"><a class="link" href="#education">Education</a></div>
+                <div class="header-item"><a class="link" href="#eng">English</a></div>
+                <div class="header-item"><a class="link" href="#progects">Progects</a></div>
+                
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="container-main" id="about-me">
+
+            <div class="left">
+                <img class="photo" src="https://i.ibb.co/sv2GDSd/Photo-Vlad.jpg" alt="Vlad">
+            </div>
+
+            <div class="right">
+                <h1 class="name">Vladislav Garenkov</h1>
+                <p>I live in Minsk. I am 24 years old.
+                    I graduated from BNTU in 2019 and then served in the army. 
+                    I have a funny dog and a wonderful wife. Now I am learning programming.</p>
+            </div>
+
+        </div>
+
+        <div class="sections">
+        
+                <div class="section" id="contacts">
+                    <h2 class="title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li class="contact-item">Phone: +375259596069</li>
+                        <li class="contact-item">Telegram: @Garenkov23</li>
+                        <li class="contact-item">E-mail: vladgarenkov@gmai.com</li>
                     </ul>
-                </td>
-            </tr>
-            <tr class="tr">
-                <td class="td-l">
-                    <nav>
-                        <p>Skills:</p>
-                    </nav>
-                </td>
-                <td class="td">
-                    <div class="code">
-                        <code>let hello;<br>
-                                hello = 'Hello World!';<br>
-                                alert(hello);
-                        </code>
-                    </div>
-                </td>
-            </tr>
-            <tr class="tr">
-                <td class="td-l">Education:</td>
-                <td class="td">
+                </div>
+
+                <div class="section" id="skills">
+                    <h2 class="title">Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item">Photoshop (begginer)</li>
+                        <li class="skills-item">Java (begginer)</li>
+                        <li class="skills-item">JavaScript (beginer)</li>
+                        <li class="skills-item">HTML (begginer)</li>
+                        <li class="skills-item">CSS (begginer)</li>
+                    </ul>
+                </div>
+            
+                <div class="section" id="code">
+                    <h2 class="title">Code</h2>
+                    
+                    <span class="code">
+                        alert('Привет');<br>
+                        alert('Мир');
+                    </span>       
+                    
+                </div>
+
+                <div class="section" id="education">
+                    <h2 class="title">Education</h2>
                     <p>Belarusion National Technical University</p>
-                </td>
-            </tr>
-            <tr class="tr">
-                <td class="td-l">English:</td>
-                <td class="td">Intermediate (B1)</td>
-            </tr>
-            <tr class="tr">
-                <td class="td-l">Contact information:</td>
-                <td class="td">
-                    <ul class="contacts">
-                        <li>Phone: +375259596069</li>
-                        <li>Telegram: @Garenkov23</li>
-                        <li>E-mail: vladgarenkov@gmai.com</li>
-                    </ul>
-                </td>
-            </tr>
-                <tr class="tr">
-                    <td class="td-l">
-                        <footer>
-                            <a href="https://rs.school/js/">
-                                <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool_image"></a>
-                                <p><time datetime="2022-01-04">Jan 4th 2022</time></p>
-                        </footer>
-                    </td>
-                    <td class="td">
-                        <footer>
-                            <a href="https://github.com/Garenkov">GitHub</a>
-                        </footer>
-                    </td>
-                </tr>
-    </table>
+                </div>
+
+                <div class="section" id="eng">
+                    <h2 class="title">English</h2>
+                    <p>Intermediate (B1)</p>
+                </div>
+
+                <div class="section" id="progects">
+                    <h2 class="title">Progects</h2>
+                    <a href="https://garenkov.github.io/rsschool-cv/"><img class="pic-link" src="https://i.ibb.co/ZN54KCH/2022-01-09-00-59-47.png" alt="progect-pic"></a>
+                </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer">
+            <a href="https://rs.school/js"><img class="pic-link" src="https://rs.school/images/rs_school_js.svg" alt="rs-school"></a>
+            <span class="time">
+                <time datetime="2022-01-04">2022</time>
+            </span>
+            <a href="https://github.com/Garenkov"><img class="pic-link" src="https://img.icons8.com/ios-filled/344/github.png" alt="git-link"></a>
+        </div>
+    </footer>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
